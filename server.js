@@ -59,7 +59,7 @@ client.replyMessage(event.replyToken,
             },
             {
               "type": "uri",
-              "label": "Add to cart",
+              "label": "CPE Website",
               "uri": "http://cpe.eng.cmu.ac.th/2013/"
             },
             // {
