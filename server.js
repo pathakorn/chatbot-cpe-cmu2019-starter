@@ -25,7 +25,7 @@ const event = req.body.events[0];
       // text: message.text
       "type": "sticker",
   "packageId": "1",
-  "stickerId": "1"
+  "stickerId": message.stickerId
     })
    
   }
