@@ -40,7 +40,7 @@ client.replyMessage(event.replyToken,
     "altText": "This is a buttons template",
     "template": {
         "type": "buttons",
-        "thumbnailImageUrl": "https://www.google.co.th/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiCp7TqyJzgAhXJRo8KHezQAiQQjRx6BAgBEAU&url=https%3A%2F%2Fdevelopers.google.com%2F%3Fhl%3Dth&psig=AOvVaw0oK71fNrBTLbIh4ZPjPoxU&ust=1549180393144902",
+        "thumbnailImageUrl": "https://lh3.googleusercontent.com/FyZA5SbKPJA7Y3XCeb9-uGwow8pugxj77Z1xvs8vFS6EI3FABZDCDtA9ScqzHKjhU8av_Ck95ET-P_rPJCbC2v_OswCN8A=s688",
         "imageAspectRatio": "rectangle",
         "imageSize": "cover",
         "imageBackgroundColor": "#CCCCFF",
