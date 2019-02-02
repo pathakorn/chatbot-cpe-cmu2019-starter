@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 })
 
 app.post('/webhook', middleware(config), (req, res) => {
-  res.send('webhook success')
+ // res.send('webhook success')
 
   const event = req.body.events[0];
 
