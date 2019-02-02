@@ -43,7 +43,7 @@ client.replyMessage(event.replyToken,
         "thumbnailImageUrl": "https://lh3.googleusercontent.com/FyZA5SbKPJA7Y3XCeb9-uGwow8pugxj77Z1xvs8vFS6EI3FABZDCDtA9ScqzHKjhU8av_Ck95ET-P_rPJCbC2v_OswCN8A=s688",
         "imageAspectRatio": "rectangle",
         "imageSize": "cover",
-        "imageBackgroundColor": "#000000",
+        "imageBackgroundColor": "#FFFFFF",
         "title": "Pathakorn Rukchua",
         "text": "Please select",
         "defaultAction": {
@@ -53,20 +53,20 @@ client.replyMessage(event.replyToken,
         },
         "actions": [
             {
-              "type": "postback",
-              "label": "Buy",
-              "data": "action=buy&itemid=123"
-            },
-            {
-              "type": "message",
-              "label": "Add to cart",
-              "text": "no no no"
+              "type": "uri",
+              "label": "Facebook",
+              "uri": "https://www.facebook.com/pathakorn.rukchua?ref=bookmarks"
             },
             {
               "type": "uri",
-              "label": "View detail",
-              "uri": "http://google.com"
-            }
+              "label": "Add to cart",
+              "uri": "http://cpe.eng.cmu.ac.th/2013/"
+            },
+            // {
+            //   "type": "uri",
+            //   "label": "View detail",
+            //   "uri": "http://google.com"
+            // }
         ]
     }
   })
