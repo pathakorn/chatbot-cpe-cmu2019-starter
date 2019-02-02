@@ -16,15 +16,14 @@ app.get('/', function (req, res) {
 })
 
 app.post('/webhook', middleware(config), (req, res) => {
-  res.send('Hello World!!')
 const event = req.body.events[0];
   if (event.type === 'message') {
     const message = event.message;
-    console.log(message.text);
-    // client.replyMessage(event.replyToken, {
-    //   type: 'text',
-    //   text: message.text
-    // })
+    console.log(message);
+    client.replyMessage(event.replyToken, {
+      type: 'text',
+      text: message.text
+    })
    
   }
 
