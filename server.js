@@ -26,6 +26,7 @@ const event = req.body.events[0];
     })
    
   }
+  res.send("test")
 
 })
 
